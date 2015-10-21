@@ -1,0 +1,32 @@
+{
+	global:
+		InitDriver;
+		CreateOcxByFile;
+		ExtractStream;
+		SeekPositon;
+		GetEof;
+		GetError;
+		IsExistAuido;
+		IsExistVideo;
+		IsHardWareAccel;
+		GetOcxAudioParam;
+		GetOcxVideoParam;
+		FlushBuffers;
+		GetDuration;
+		DecodeVideoYUVStream;
+		DecodeAudioStream;
+		GetPacketCtx;
+		DestroyPacket;
+		CloseOcxByOCX;
+		GetTimeHere;
+		GetFrameSize;
+		usSleep;
+		GetPacketAttr;
+		GetTimeBase;
+		UseAlloc;
+		FreeAlloc;
+		VideoOutPyaddr;
+		GetRepeat;
+	local: *;
+};
+

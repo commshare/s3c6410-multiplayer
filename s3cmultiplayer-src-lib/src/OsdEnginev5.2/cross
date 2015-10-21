@@ -1,0 +1,1 @@
+arm-linux-gcc  -shared  ReadOSD.c -o libOsdEngine.so -Wl,--retain-symbols-file=SoftEngine.txt -Wl,--version-script=SoftEngine.def

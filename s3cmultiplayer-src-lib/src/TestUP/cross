@@ -1,0 +1,1 @@
+arm-linux-gcc *.c -o player -I"/usr/Embedded/include" -I"/usr/alsa/include" -L. -L"/usr/Embedded/lib" -L"/usr/alsa/lib" `/usr/Embedded/bin/sdl-config --libs --cflags` -lCodecEngine -lpthread -lHwScale -lSoundEngine -lasound -lSDL  -lShareMem -lQueueEngine
